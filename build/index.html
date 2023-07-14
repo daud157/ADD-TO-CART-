@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+ <link rel="stylesheet" href="output.css">
+  <title>Document</title>
+</head>
+<body>
+<div class="  h-screen w-screen bg-white">
+    <div class="bg-slate-100 shadow-3xl shadow-pink-800 h-screen w-8/12 inline-block absolute border rounded-2xl ">
+      <span class="welcome">Welcome To Our Cart</span>
+        <h3 class="text-pink-900 text-2xl m-20 ml-6 font-bold shadow-md mb-10 ">Add To Cart</h3>
+        <div class="h-56 w-56 inline-block" id="productslist mt-100">
+           <div class="h-2/3 w-full " id="pic"><img class="h-full w-full" src="leilani-angel-d2aZ2MJBSeU-unsplash.jpg" alt=""></div> 
+            <div class="price" id="price">100</div>
+            <button  class="cart" onclick="addToCart(this)"> Add to cart  </button><br/>
+        
+        </div>
+         <div class="h-56 w-56 inline-block" id="productslist1">
+       
+          <div class="h-2/3 w-full " id="pic1"><img class="h-full w-full" src="mockup-graphics-bC1fXU1v98U-unsplash.jpg" alt=""></div> 
+          <!-- <span>Tomato</span> -->
+         <div class="price" id="price2">300</div>
+         <!-- <button  onclick="addToCart(this)"> Add to cart  </button><br/> -->
+         <button class="cart"id="bt" onclick="addToCart(this)"> Add to cart  </button><br/>
+    
+        </div>
+        <div class="h-56 w-56 inline-block" id="productslist1">
+          <div class="h-2/3 w-full " id="pic1"><img class="h-full w-full" src="mockup-graphics-bC1fXU1v98U-unsplash.jpg" alt=""></div> 
+           <div class="price" id="price2">300</div>
+           <!-- <button  onclick="addToCart(this)"> Add to cart  </button><br/> -->
+           <button class="cart" id="bt" onclick="addToCart(this)"> Add to cart  </button><br/>
+      
+          </div>
+          <div class="h-56 w-56 inline-block" id="productslist1">
+           
+            <div class="h-2/3 w-full " id="pic1"><img class="h-full w-full" src="mockup-graphics-bC1fXU1v98U-unsplash.jpg" alt=""></div> 
+             <div class="price" id="price2">300</div>
+             <!-- <button  onclick="addToCart(this)"> Add to cart  </button><br/> -->
+             <button class="cart"id="bt" onclick="addToCart(this)"> Add to cart  </button><br/>
+        
+            </div>
+    </div>
+   
+    <div class="bg-pink-500 h-screen  w-4/12  float-right   border rounded-l-3xl" id="added">
+       <!-- <div class="  " id="tottal">0</div> -->
+       <span class="p-cart">Products In Cart</span>
+       <div class="list" id="list"></div>
+         <div class=" p-add-cart " id="tottal">Your Cart is Empty!</div>
+    </div>
+</div>
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
+
+ 

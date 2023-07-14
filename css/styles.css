@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+.my-custom-class {
+    @apply text-red-500 bg-blue-500;
+  }
+  
+  .my-other-class {
+    @apply font-bold text-lg text-green-700;
+  }
